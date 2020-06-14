@@ -14,10 +14,6 @@ trigger:
  paths:
    exclude:
      - docs/*
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'build'
-    projects: '**/*.csproj'
      - README.md
      - azure-pipelines-ci.yml
      - azure-pipelines-ci-cd.yml
